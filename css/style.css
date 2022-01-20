@@ -171,6 +171,9 @@ header {
     width: 100%;
     height: 100%;
 }
+.gnav-item:hover {
+    color: red;
+}
 .request {
     position: relative;
     height: 100%;
@@ -523,6 +526,9 @@ style 属性 {
     width: 80%;
     margin: 0 auto;
 }
+.language-des {
+    line-height: 25px;
+}
 .language-title {
     text-align: center;
     margin-bottom: 30px;
@@ -571,10 +577,10 @@ style 属性 {
 }
 .course-content-inner {
     display: flex;
-    height: 400px;
 }
 .course-item {
     width: 50%;
+    height: 400px;
     display:flex;
     justify-content:center;
     align-items:center;
