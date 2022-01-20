@@ -620,6 +620,8 @@ style 属性 {
     padding: 20px 40px;
     border-radius: 28px;
     text-decoration: none;
+    width: 300px;
+    margin: 0 auto;
 }
 .course-item .course-item-content p:nth-of-type(1) {
     text-shadow: 1px 1px 1px #ffffff;
@@ -763,6 +765,19 @@ style 属性 {
     }
     .course-content-inner:nth-of-type(2) .course-item:nth-of-type(1) {
         order: 0;
+    }
+    .course-item-content {
+        width: 100%;
+    }
+    .course-item-content p:nth-of-type(1) {
+        margin-bottom: 10px;
+    }
+    .course-item-content p:nth-of-type(2) {
+        margin-bottom: 30px;
+    }
+    .more-btn {
+        width: 150px;
+        margin: 0 auto;
     }
     .table {
         width: 483px;
