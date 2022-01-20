@@ -582,9 +582,6 @@ style 属性 {
     position: relative;
     width: 50%;
     padding-top: 75%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
 }
 .course-item-img {
     position: absolute;
@@ -601,7 +598,13 @@ style 属性 {
     background-color: #95c6e7;
 }
 .course-item-content {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+
     text-align: center;
+
 }
 .course-item-content p:nth-of-type(1) {
     font-size: 35px;
