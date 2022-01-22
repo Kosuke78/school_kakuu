@@ -111,7 +111,6 @@ input, select {
 /* swiper */
 .swiper-container {
     width: 100%;
-    height: 300px;
     position: relative;
 }
 .swiper-button-prev {
@@ -201,7 +200,8 @@ header {
     padding: 10px 40px;
     text-decoration: none;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px #111111
+    box-shadow: 1px 1px 1px #111111;
+    z-index: 200;
 }
 /* ハンバーガーボタン */
 /* インプット チェックボックス 非表示 */
@@ -683,6 +683,7 @@ style 属性 {
 .upper-img-des {
     padding: 15px;
     font-weight: bold;
+    text-align: left;
 }
 .upper-content {
     line-height: 20px;
@@ -705,6 +706,13 @@ style 属性 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+@media screen and (max-width:400px) {
+    .upper-img-inner {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
 }
 @media screen and (max-width:526px) {
     .common-title {
